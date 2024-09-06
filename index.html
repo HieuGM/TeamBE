@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu thành viên</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Giới thiệu thành viên</h1>
+        <div class="members">
+            <div class="member">
+                <img src="images/AnhDang.jpg" alt="Nguyễn Khánh Đăng" onclick="showInfo('dang')">
+                <p>Nguyễn Khánh Đăng</p>
+            </div>
+
+            <div class="member">
+                <img src="images/AnhHung.jpg" alt="Nguyễn Võ Hưng" onclick="showInfo('hung')">
+                <p>Nguyễn Võ Hưng</p>
+            </div>
+
+            <div class="member">
+                <img src="images/AnhHoa.jpg" alt="Ngô Xuân Hòa" onclick="showInfo('hoa')">
+                <p>Ngô Xuân Hòa</p>
+            </div>
+            
+            <div class="member">
+                <img src="images/AnhDuyAnh.jpg" alt="Nguyễn Duy Anh" onclick="showInfo('duyanh')">
+                <p>Nguyễn Duy Anh</p>
+            </div>
+
+            <div class="member">
+                <img src="images/AnhDung.jpg" alt="Nguyễn Trí Dũng" onclick="showInfo('dung')">
+                <p>Nguyễn Trí Dũng</p>
+            </div>
+            <div class="member">
+                <img src="images/AnhNam.jpg" alt="Vũ Thành Nam" onclick="showInfo('nam')">
+                <p>Vũ Thành Nam</p>
+            </div>
+            <div class="member">
+                <img src="images/AnhDat.jpg" alt="Trần Đức Đạt" onclick="showInfo('dat')">
+                <p>Trần Đức Đạt</p>
+            </div>
+            <div class="member">
+                <img src="images/AnhBach.jpg" alt="Trịnh Lê Xuân Bách" onclick="showInfo('bach')">
+                <p>Trịnh Lê Xuân Bách</p>
+            </div>
+            <div class="member">
+                <img src="images/ChiPhuong.jpg" alt="Mai Thị Phượng" onclick="showInfo('phuong')">
+                <p>Mai Thị Phượng</p>
+            </div>
+        </div>
+
+        <div class="member-info" id="member-info">
+            <h2 id="name"></h2>
+            <p id="details"></p>
+            <button onclick="closeInfo()">Đóng</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
